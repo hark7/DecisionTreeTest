@@ -1,0 +1,20 @@
+<node name="Start">
+	<mappinglist>
+		<alternative name="Decrease Temperature" mapsTo="Decrease" />
+		<alternative name="Increase Temperature" mapsTo="Increase" />
+		<alternative name="Unknown" mapsTo="Unknown" />
+	</mappinglist>
+	<childrennodes>
+		<node name="Decrease">
+			<alternative name="Decrease by 1 degree" />
+			<alternative name="Decrease by 5 degrees" />
+		</node>
+		<node name="Increase">
+			<alternative name="Increase by 1 degree" />
+			<alternative name="Increase by 5 degrees" />
+		</node>
+		<node name="Unknown">
+			<xmlFile name="PROCESSUNKNOWN.XML" nodeName="EndUnkown" />
+		</node>
+	</childrennodes>
+</node>

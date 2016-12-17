@@ -1,0 +1,6 @@
+<node name="EndUnknown">
+	<mappinglist>
+			<alternative name="Make it hot" />
+			<alternative name="Make it cold" />
+	</mappinglist>
+</node>
